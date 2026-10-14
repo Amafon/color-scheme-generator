@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Color Scheme Generator</title>
+  </head>
+  <body>
+    <section class="section-colors">
+      <form action="">
+        <input
+          class="custom-color-picker"
+          type="color"
+          name="color-picker"
+          id="color-picker"
+        />
+        <select name="color-mode" id="color-mode">
+          <option value="monochrome">Monochrome</option>
+          <option value="monochrome-dark">Monochrome-dark</option>
+          <option value="monochrome-light">Monochrome-light</option>
+          <option value="analogic">Analogic</option>
+          <option value="complement">Complement</option>
+          <option value="analogic-complement">Analogic-complement</option>
+          <option value="triad">Triad</option>
+        </select>
+        <button type="submit" id="button">Generator color scheme</button>
+      </form>
+      <div class="colors-grid" id="colors-grid">
+        <div class="color-block">
+          <div class="color-fluid" style="background-color: #eeb876"></div>
+          <div class="color-hex">#eeb876</div>
+        </div>
+        <!-- <div class="color-block">
+          <div class="color-fluid" style="background-color: #58ed78"></div>
+          <div class="color-hex">#58ed78</div>
+        </div>
+        <div class="color-block">
+          <div class="color-fluid" style="background-color: #20b981"></div>
+          <div class="color-hex">#20b981</div>
+        </div>
+        <div class="color-block">
+          <div class="color-fluid" style="background-color: #3068df"></div>
+          <div class="color-hex">#3068df</div>
+        </div>
+        <div class="color-block">
+          <div class="color-fluid" style="background-color: #cb1753"></div>
+          <div class="color-hex">#cb1753</div>
+        </div> -->
+      </div>
+    </section>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
